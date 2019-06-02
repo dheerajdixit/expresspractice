@@ -1,0 +1,18 @@
+{
+  "name": "expresspractice",
+  "version": "1.0.0",
+  "description": "Learning express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server"
+  },
+  "author": "Dheeraj",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-router": "0.0.1",
+    "http-errors": "^1.7.2",
+    "pug": "^2.0.3"
+  }
+}
