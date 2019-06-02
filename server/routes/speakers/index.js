@@ -4,11 +4,11 @@ const router = express.Router();
 
 module.exports = () => {
     router.get('/', (req, res, next) => {
-        return res.send('Feedback');
+        return res.render('speakers');
     });
 
-    router.post('/', (req, res, next) => {
-        return res.send('Form sent');
+    router.get('/:name', (req, res, next) => {
+        return res.render('speakers/detail');
     });
     
     return router;
